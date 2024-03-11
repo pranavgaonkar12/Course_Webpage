@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Landing_page_images/mille-sanders-0jCdgZPjAX8-unsplash.jpg'); 
+    background-position: center;
+    background-size:cover;
+}
+
+header {
+    background-color: black; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    padding-right: 650px;
+    
+}
+
+header h1{
+    animation: fadeIn 1.5s ease;
+}
+
+main {
+    padding: 20px;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.course-details-container {
+    animation: fadeIn 1.5s ease;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    border:5px solid whitesmoke;
+    
+}
+
+.course-details-container img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+
+#course-title {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+#course-duration, #course-teacher {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#course-description {
+    margin-bottom: 20px; 
+}
+
+#playlist-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+    border:2px solid black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#playlist-button:hover {
+    background-color:white;
+    color:black;
+    border:2px solid whitesmoke;
+
+}
+
+footer {
+    background-color:black; 
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer p{
+    animation: fadeIn 1.5s ease;
+}
+
+
+#back-button {
+    animation: fadeIn 1.5s ease;
+    background-color:white; 
+    color: black; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    
+}
+
+#back-button:hover {
+    background-color: black;
+    color:white;
+    border: 2px solid whitesmoke;
+}
